@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { HttpClient, HttpParams } from '@angular/common/http'
 import { Injectable } from '@angular/core'
 import { Observable } from 'rxjs'
@@ -55,7 +56,7 @@ export class WeatherService {
     return {
       city: data.name,
       country: data.sys.country,
-      date: data.dt * 1000,
+      date: new Date(data.dt * 1000), // Convert Unix timestamp to Date
       image: `http://openweathermap.org/img/w/${data.weather[0].icon}.png`,
       temperature: this.convertKelvinToFahrenheit(data.main.temp),
       description: data.weather[0].description,
