@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Observable, of } from 'rxjs'
 
 import { ICurrentWeather } from '../interfaces'

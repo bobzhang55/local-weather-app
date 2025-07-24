@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { provideHttpClient } from '@angular/common/http'
 import { ApplicationConfig } from '@angular/core'
 

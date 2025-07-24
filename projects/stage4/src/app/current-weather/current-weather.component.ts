@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { DatePipe, DecimalPipe } from '@angular/common'
 import { Component, OnInit } from '@angular/core'
 
@@ -17,7 +18,7 @@ export class CurrentWeatherComponent implements OnInit {
 
   ngOnInit(): void {
     this.weatherService
-      .getCurrentWeather('Bethesda', 'US')
+      .getCurrentWeather('Houston', 'US')
       .subscribe((data) => (this.current = data))
   }
 }

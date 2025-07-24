@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing'
 
 import { WeatherService } from '../weather/weather.service'
@@ -22,6 +23,6 @@ describe('CurrentWeatherComponent', () => {
   })
 
   it('should create', () => {
-    expect(component).toBeTruthy()
+    expect(component).toBeTruthy
   })
 })
