@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Injectable } from '@angular/core'
 import { ComponentStore } from '@ngrx/component-store'
 

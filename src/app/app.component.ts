@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Component, effect, inject, signal } from '@angular/core'
 import { MatButtonToggleModule } from '@angular/material/button-toggle'
 import { MatCardModule } from '@angular/material/card'
