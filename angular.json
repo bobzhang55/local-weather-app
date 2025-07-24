@@ -6,7 +6,8 @@
     "schematicCollections": [
       "@cypress/schematic",
       "@schematics/angular"
-    ]
+    ],
+    "analytics": "e83c150f-51fc-40b8-9daa-6d77975f8641"
   },
   "newProjectRoot": "projects",
   "projects": {
