@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { ICurrentWeather } from '../interfaces'
 
 export const fakeWeather: ICurrentWeather = {

@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { DatePipe, DecimalPipe } from '@angular/common'
 import { Component, OnInit } from '@angular/core'
 import { FlexModule } from '@ngbracket/ngx-layout/flex'
@@ -18,7 +19,7 @@ export class CurrentWeatherComponent implements OnInit {
 
   ngOnInit(): void {
     this.weatherService
-      .getCurrentWeather('Bethesda', 'US')
+      .getCurrentWeather('Katy', 'US')
       .subscribe((data) => (this.current = data))
   }
 

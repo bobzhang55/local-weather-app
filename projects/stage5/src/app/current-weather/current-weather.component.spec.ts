@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing'
 import { By } from '@angular/platform-browser'
 import { injectSpy } from 'angular-unit-test-helper'
