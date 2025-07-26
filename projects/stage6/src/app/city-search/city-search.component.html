@@ -1,7 +1,8 @@
+<!-- eslint-disable prettier/prettier -->
 <form style="margin-bottom: 32px">
   <mat-form-field appearance="outline">
-    <mat-label>City Name or Postal Code</mat-label>
-    <mat-icon matPrefix>search</mat-icon>
+    <mat-label>CityName or PostalCode</mat-label>
+    <mat-icon matPrefix>settings_bluetooth</mat-icon>
     <input matInput aria-label="City or Zip" [formControl]="search" />
     <mat-hint>Specify country code like 'Paris, US'</mat-hint>
     @if (search.invalid) {

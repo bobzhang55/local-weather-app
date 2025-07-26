@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Component } from '@angular/core'
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop'
 import { FormControl, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms'

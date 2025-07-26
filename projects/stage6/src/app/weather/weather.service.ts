@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { HttpClient, HttpParams } from '@angular/common/http'
 import { Injectable } from '@angular/core'
 import { BehaviorSubject, Observable } from 'rxjs'
@@ -37,11 +38,11 @@ export interface IWeatherService {
 })
 export class WeatherService implements IWeatherService {
   readonly currentWeather$ = new BehaviorSubject<ICurrentWeather>({
-    city: '--',
+    city: 'Katy',
     country: '--',
     date: Date.now(),
     image: '',
-    temperature: 0,
+    temperature: 25,
     description: '',
   })
 

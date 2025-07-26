@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Component } from '@angular/core'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { MatButtonModule } from '@angular/material/button'

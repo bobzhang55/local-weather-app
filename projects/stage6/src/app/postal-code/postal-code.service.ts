@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { HttpClient, HttpParams } from '@angular/common/http'
 import { Injectable } from '@angular/core'
 import { Observable } from 'rxjs'
@@ -47,8 +48,7 @@ export class PostalCodeService implements IPostalCodeService {
         { params: uriParams }
       )
       .pipe(
-        mergeMap((data) => data.postalCodes),
-        defaultIfEmpty(defaultPostalCode)
+        mergeMap((data) => data.postalCodes), defaultIfEmpty(defaultPostalCode)
       )
   }
 }

@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { AsyncPipe, DatePipe, DecimalPipe } from '@angular/common'
 import { Component } from '@angular/core'
 import { FlexModule } from '@ngbracket/ngx-layout/flex'

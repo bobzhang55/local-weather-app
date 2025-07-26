@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Component } from '@angular/core'
 import { MatCardModule } from '@angular/material/card'
 import { MatToolbarModule } from '@angular/material/toolbar'
